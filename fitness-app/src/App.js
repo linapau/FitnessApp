@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Home, Workouts, DietsPage, Calendar, Leaderboard, Customers, Progress, Line, Area, Bar, Pie, ColorMapping } from './pages';
+import { Home, WorkoutPlanPage, Workouts, DietsPage, Calendar, Leaderboard, Customers, Progress, Line, Area, Bar, Pie, ColorMapping } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -73,6 +73,7 @@ const App = () => {
                 <Route path="/leaderboard" element={<Leaderboard />} />
                 <Route path="/community" element={<Customers />} />
                 <Route path="/dietspage" element={<DietsPage />} />
+                <Route path="/workoutPlan" element={<WorkoutPlanPage />} />
 
                 {/* apps  */}
                 <Route path="/progress" element={<Progress />} />

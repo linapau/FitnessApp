@@ -422,6 +422,10 @@ export const links = [
         icon: <GiJumpAcross />,
       },
       {
+        name: 'workoutPlan',
+        icon: <GiJumpAcross />,
+      },
+      {
         name: 'Leaderboard',
         icon: <MdOutlineLeaderboard />,
       },
