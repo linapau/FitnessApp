@@ -10,7 +10,7 @@ import './App.css';
 import { useStateContext } from './contexts/ContextProvider';
 
 const App = () => {
-  const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
+  const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings, setPlanForHome } = useStateContext();
 
   useEffect(() => {
     const currentThemeColor = localStorage.getItem('colorMode');
@@ -73,7 +73,7 @@ const App = () => {
                 <Route path="/leaderboard" element={<Leaderboard />} />
                 <Route path="/community" element={<Customers />} />
                 <Route path="/dietspage" element={<DietsPage />} />
-                <Route path="/workoutPlan" element={<WorkoutPlanPage />} />
+                <Route path="/workoutPlan" element={<WorkoutPlanPage setPlanForHome={setPlanForHome} />} />
 
                 {/* apps  */}
                 <Route path="/progress" element={<Progress />} />

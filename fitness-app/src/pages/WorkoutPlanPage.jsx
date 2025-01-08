@@ -43,9 +43,14 @@ import { exercisesData } from '../data/dummy';
   };
 
  //////////
- const handleSavePlan = () => {
-    setPlanForHome(weekPlan); // Zapisz plan w stanie globalnym
-  };
+// const handleSavePlan = () => {
+  //  setPlanForHome(weekPlan); // Zapisz plan w stanie globalnym
+  //};
+
+    // Zapisanie planu do stanu głównego (Home)
+    const handleSavePlan = () => {
+        setPlanForHome(weekPlan);  // Funkcja przekazana przez props zapisuje plan w stanie Home
+      };
 
   return (
     <div className="p-6">
@@ -86,80 +91,3 @@ import { exercisesData } from '../data/dummy';
 };
 
 export default WorkoutPlanPage;
-
-/*
-import React, { useState } from 'react';
-import { DayWorkout, ExamplePlans } from '../components';
-import { exercisesData } from '../data/dummy';
-
-const WorkoutPlanPage = ({ setPlanForHome }) => {
-  const defaultWeekPlan = {
-    Monday: [],
-    Tuesday: [],
-    Wednesday: [],
-    Thursday: [],
-    Friday: [],
-    Saturday: [],
-    Sunday: [],
-  };
-
-  const [weekPlan, setWeekPlan] = useState(defaultWeekPlan);
-
-  const handleAddExercise = (day, exercise) => {
-    setWeekPlan((prev) => ({
-      ...prev,
-      [day]: [...prev[day], exercise],
-    }));
-  };
-
-  const handleSelectExamplePlan = (examplePlan) => {
-    setWeekPlan(examplePlan);
-  };
-
-  const handleResetPlan = () => {
-    setWeekPlan(defaultWeekPlan);
-  };
-
-  return (
-    <div className="p-6 bg-white dark:bg-secondary-dark-bg rounded-lg shadow-md">
-      <h1 className="text-2xl font-bold mb-6 text-center">Create Your Workout Plan</h1>
-
-      <div className="flex flex-wrap gap-6 justify-center">
-        {Object.entries(weekPlan).map(([day, exercises]) => (
-          <DayWorkout
-            key={day}
-            day={day}
-            exercisesData={exercises}
-            onAddExercise={(exercise) => handleAddExercise(day, exercise)}
-            availableExercises={exercisesData.exercises}
-            className="shadow-md rounded-lg bg-white dark:bg-secondary-dark-bg p-4"
-          />
-        ))}
-      </div>
-
-      <div className="flex justify-center mt-8 space-x-4">
-        <ExamplePlans onSelectPlan={handleSelectExamplePlan} />
-        <button
-          onClick={handleResetPlan}
-          className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-md shadow"
-        >
-          Reset Plan
-        </button>
-      </div>
-
-      <div className="mt-6 flex justify-center">
-        <button
-          onClick={() => setPlanForHome(weekPlan)}
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md shadow"
-        >
-          Save Plan to Home
-        </button>
-      </div>
-    </div>
-  );
-};
-
-export default WorkoutPlanPage;
-
-
-*/

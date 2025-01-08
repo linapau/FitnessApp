@@ -16,7 +16,7 @@ export const ContextProvider = ({ children }) => {
   const [themeSettings, setThemeSettings] = useState(false);
   const [activeMenu, setActiveMenu] = useState(true);
   const [isClicked, setIsClicked] = useState(initialState);
-  const [homeWorkoutPlan, setHomeWorkoutPlan] = useState(null);
+  const [homeWorkoutPlan, setPlanForHome] = useState(null);
 
   const setMode = (e) => {
     setCurrentMode(e.target.value);
@@ -32,7 +32,7 @@ export const ContextProvider = ({ children }) => {
 
   return (
     // eslint-disable-next-line react/jsx-no-constructed-context-values
-    <StateContext.Provider value={{ currentColor, currentMode, activeMenu, screenSize, setScreenSize, handleClick, isClicked, initialState, setIsClicked, setActiveMenu, setCurrentColor, setCurrentMode, setMode, setColor, themeSettings, setThemeSettings, homeWorkoutPlan, setHomeWorkoutPlan }}>
+    <StateContext.Provider value={{ currentColor, currentMode, activeMenu, screenSize, setScreenSize, handleClick, isClicked, initialState, setIsClicked, setActiveMenu, setCurrentColor, setCurrentMode, setMode, setColor, themeSettings, setThemeSettings, homeWorkoutPlan, setPlanForHome }}>
       {children}
     </StateContext.Provider>
   );
