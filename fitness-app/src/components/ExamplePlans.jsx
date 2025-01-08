@@ -3,13 +3,21 @@ import React from 'react';
 const ExamplePlans = ({ onSelectPlan }) => {
   const examplePlans = [
     {
-      Monday: [{ name: 'Push-ups' }, { name: 'Sit-ups' }],
+      Monday: [{ name: 'Push-ups' }, { name: 'Sit-ups' }, {name: "3/4 Sit-Up", category: 'strength', level: 'beginner'}],
       Tuesday: [{ name: 'Running' }],
-      // Dodaj więcej przykładowych planów...
+      Wednesday: [{name: 'Ab Crunch Machine'}, { name: 'Air Bike'}, {name: 'All Fours Quad Stretch'}],
+      Thursday: [{name: 'Alternate Heel Touchers'}, {name: 'Alternate Incline Dumbbell Curl'}, {name: 'Alternate Leg Diagonal Bound'}, {name: 'Alternating Cable Shoulder Press'}],
+      Friday: [{name: 'Sledgehammer Swings'}, {name: 'Smith Machine Behind the Back Shrug'}],
+      Saturday: [{name: 'Smith Machine Incline Bench Press'}, {name: 'Smith Machine Leg Press'}],
+      Sunday: [{name: 'Standing Long Jump'}],
     },
     {
       Monday: [{ name: 'Squats' }],
       Wednesday: [{ name: 'Jumping Jacks' }],
+      Thursday: [{name: 'Alternate Heel Touchers'}, {name: 'Alternate Incline Dumbbell Curl'}, {name: 'Alternate Leg Diagonal Bound'}],
+      Friday: [{name: 'Standing Hip Flexors'}, {name: 'Standing Elevated Quad Stretch'}],
+      Saturday: [{name: 'Standing Elevated Quad Stretch'}, {name: 'Standing Dumbbell Upright Row'}, {name: 'Standing Dumbbell Triceps Extension'}],
+      Sunday: [{name: 'Standing Dumbbell Press'}],
     },
   ];
 
