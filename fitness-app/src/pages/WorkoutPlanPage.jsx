@@ -41,13 +41,10 @@ import { exercisesData } from '../data/dummy';
   const handleResetPlan = () => {
     setWeekPlan(defaultWeekPlan);
   };
+
  //////////
-  const handleSavePlan = () => {
-    if (typeof setPlanForHome === 'function') {
-      setPlanForHome(weekPlan); // Przekazanie aktualnego planu do komponentu nadrzędnego
-    } else {
-      console.error('setPlanForHome is not a function');
-    }
+ const handleSavePlan = () => {
+    setPlanForHome(weekPlan); // Zapisz plan w stanie globalnym
   };
 
   return (
