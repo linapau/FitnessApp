@@ -1,6 +1,7 @@
 export { default as Home } from './Home';
 export { default as Progress } from './Progress';
 export { default as Workouts } from './Workouts';
+export { default as ProfilePage } from './ProfilePage'
 export { default as Leaderboard } from './Leaderboard';
 export { default as DietsPage } from './DietsPage';
 export { default as Customers } from './Customers';
