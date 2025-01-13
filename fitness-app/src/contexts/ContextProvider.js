@@ -9,6 +9,14 @@ const initialState = {
   notification: false,
 };
 
+const initialUser = {
+  name: 'Rob Deans',
+  email: 'RobDeans@fitness.com',
+  aboutMe: 'Software developer based in San Francisco.',
+  avatar: null, // Ścieżka do zdjęcia użytkownika
+  role: 'Administrator',
+};
+
 export const ContextProvider = ({ children }) => {
   const [screenSize, setScreenSize] = useState(undefined);
   const [currentColor, setCurrentColor] = useState('#03C9D7');
@@ -17,6 +25,13 @@ export const ContextProvider = ({ children }) => {
   const [activeMenu, setActiveMenu] = useState(true);
   const [isClicked, setIsClicked] = useState(initialState);
   const [homeWorkoutPlan, setPlanForHome] = useState(null);
+
+  // New state
+  const [user, setUser] = useState(initialUser);
+
+  const updateUser = (updatedUser) => {
+    setUser((prevUser) => ({ ...prevUser, ...updatedUser }));
+  };
 
   const setMode = (e) => {
     setCurrentMode(e.target.value);
@@ -32,10 +47,34 @@ export const ContextProvider = ({ children }) => {
 
   return (
     // eslint-disable-next-line react/jsx-no-constructed-context-values
-    <StateContext.Provider value={{ currentColor, currentMode, activeMenu, screenSize, setScreenSize, handleClick, isClicked, initialState, setIsClicked, setActiveMenu, setCurrentColor, setCurrentMode, setMode, setColor, themeSettings, setThemeSettings, homeWorkoutPlan, setPlanForHome }}>
+    <StateContext.Provider  // share infos in context
+      value={{
+        currentColor,
+        currentMode,
+        activeMenu,
+        screenSize,
+        setScreenSize,
+        handleClick,
+        isClicked,
+        initialState,
+        setIsClicked,
+        setActiveMenu,
+        setCurrentColor,
+        setCurrentMode,
+        setMode,
+        setColor,
+        themeSettings,
+        setThemeSettings,
+        homeWorkoutPlan,
+        setPlanForHome,
+        user,
+        updateUser,    
+      }}
+    >
       {children}
     </StateContext.Provider>
   );
 };
 
+// Hook to use of context
 export const useStateContext = () => useContext(StateContext);

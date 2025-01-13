@@ -1,17 +1,17 @@
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
-import { useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom';
 import { Button } from '.';
 import { userProfileData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
-import avatar from '../data/avatar4.jpg';
+import avatar from '../data/avatar4.jpg'; // Możesz zamienić na domyślny awatar użytkownika
 
 const UserProfile = () => {
-  const { currentColor } = useStateContext();
-  const navigate = useNavigate(); // Inicjalizuj useNavigate
+  const { currentColor, user } = useStateContext(); // Pobierz dane użytkownika z kontekstu
+  const navigate = useNavigate();
 
   const handleMyProfileClick = () => {
-    navigate('/profile'); // Przekierowanie do /profile
+    navigate('/profile'); // Przekierowanie do strony profilu
   };
 
   return (
@@ -29,13 +29,19 @@ const UserProfile = () => {
       <div className="flex gap-5 items-center mt-6 border-color border-b-1 pb-6">
         <img
           className="rounded-full h-24 w-24"
-          src={avatar}
+          src={user.avatar || avatar} // Wyświetl awatar użytkownika lub domyślny
           alt="user-profile"
         />
         <div>
-          <p className="font-semibold text-xl dark:text-gray-200"> Rob Deans </p>
-          <p className="text-gray-500 text-sm dark:text-gray-400"> Administrator </p>
-          <p className="text-gray-500 text-sm font-semibold dark:text-gray-400"> johnDeansFitness@gmail.com </p>
+          <p className="font-semibold text-xl dark:text-gray-200">
+            {user.name || 'User Name'} {/* Wyświetl nazwę użytkownika */}
+          </p>
+          <p className="text-gray-500 text-sm dark:text-gray-400">
+            {user.role || 'Role'} {/* Wyświetl rolę użytkownika */}
+          </p>
+          <p className="text-gray-500 text-sm font-semibold dark:text-gray-400">
+            {user.email || 'user@example.com'} {/* Wyświetl e-mail użytkownika */}
+          </p>
         </div>
       </div>
       <div>
@@ -55,7 +61,9 @@ const UserProfile = () => {
 
             <div>
               <p className="font-semibold dark:text-gray-200 ">{item.title}</p>
-              <p className="text-gray-500 text-sm dark:text-gray-400"> {item.desc} </p>
+              <p className="text-gray-500 text-sm dark:text-gray-400">
+                {item.desc}
+              </p>
             </div>
           </div>
         ))}
