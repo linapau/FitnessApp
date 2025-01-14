@@ -2,11 +2,18 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import { Home, WorkoutPlanPage, Workouts, DietsPage, Calendar, Leaderboard, Customers, Progress, Line, Area, Bar, Pie, ColorMapping, ProfilePage } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
+
+//const theme = createTheme({
+//  palette: {
+//    mode: 'light', // lub 'dark'
+//  },
+//});
 
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings, setPlanForHome } = useStateContext();

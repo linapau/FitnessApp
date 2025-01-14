@@ -26,7 +26,6 @@ export const ContextProvider = ({ children }) => {
   const [isClicked, setIsClicked] = useState(initialState);
   const [homeWorkoutPlan, setPlanForHome] = useState(null);
 
-  // New state
   const [user, setUser] = useState(initialUser);
 
   const updateUser = (updatedUser) => {
@@ -44,6 +43,12 @@ export const ContextProvider = ({ children }) => {
   };
 
   const handleClick = (clicked) => setIsClicked({ ...initialState, [clicked]: true });
+
+  console.log('Current context values:', {
+    screenSize,
+    currentColor,
+    currentMode,
+  });
 
   return (
     // eslint-disable-next-line react/jsx-no-constructed-context-values
