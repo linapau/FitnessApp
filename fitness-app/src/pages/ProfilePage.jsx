@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import { MdEdit } from 'react-icons/md'; // Ikona edycji
 //import { Switch } from '@mui/material';
-import Switch from "react-switch";
+//import Switch from "react-switch";
+//import { SwitchComponent } from '@syncfusion/ej2-react-buttons';
+import Switch from '@mui/material/Switch';
 import { useStateContext } from '../contexts/ContextProvider';
+
 
 function ProfilePage() {
   const { user, updateUser } = useStateContext(); // Pobierz dane użytkownika i funkcję aktualizacji
