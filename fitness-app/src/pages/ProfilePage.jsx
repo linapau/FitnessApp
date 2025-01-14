@@ -39,7 +39,7 @@ function ProfilePage() {
     <div className="max-w-6xl mx-auto p-6 bg-white shadow-lg rounded-lg flex gap-12">
       {/* Sekcja Profile Settings */}
       <div className="w-2/3">
-        <h2 className="text-2xl font-semibold text-center text-primary mb-6">Profile Settings</h2>
+        <h2 className="text-2xl font-semibold text-left mb-6 text-gray-800">Profile Settings</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label className="block text-lg font-medium text-gray-700">Name</label>
@@ -100,38 +100,38 @@ function ProfilePage() {
 
       {/* Sekcja Platform Settings */}
       <div className="w-1/3">
-        <h2 className="text-2xl font-semibold text-center text-primary mb-6">Platform Settings</h2>
+        <h2 className="text-2xl font-semibold text-left text-gray-800 mb-6">Platform Settings</h2>
         <div className="space-y-4">
           <div className="flex justify-between items-center">
-            <label className="text-lg font-medium text-gray-700">Email me when someone follows me</label>
+            <label className="text-base font-medium text-gray-600">Email me when someone follows me</label>
             <Switch
               checked={settings.follows}
               onChange={() => handleToggle('follows')}
             />
           </div>
           <div className="flex justify-between items-center">
-            <label className="text-lg font-medium text-gray-700">Email me when someone responds to my post</label>
+            <label className="text-base font-medium text-gray-600">Email me when someone responds to my post</label>
             <Switch
               checked={settings.responds}
               onChange={() => handleToggle('responds')}
             />
           </div>
           <div className="flex justify-between items-center">
-            <label className="text-lg font-medium text-gray-700">Email me when I forget about completing my daily plan</label>
+            <label className="text-base font-medium text-gray-600">Email me when I forget about completing my daily plan</label>
             <Switch
               checked={settings.dailyPlan}
               onChange={() => handleToggle('dailyPlan')}
             />
           </div>
           <div className="flex justify-between items-center">
-            <label className="text-lg font-medium text-gray-700">Email me when I forget about completing my weekly plan</label>
+            <label className="text-base font-medium text-gray-600">Email me when I forget about completing my weekly plan</label>
             <Switch
               checked={settings.weeklyPlan}
               onChange={() => handleToggle('weeklyPlan')}
             />
           </div>
           <div className="flex justify-between items-center">
-            <label className="text-lg font-medium text-gray-700">Subscribe to newsletter</label>
+            <label className="text-base font-medium text-gray-600">Subscribe to newsletter</label>
             <Switch
               checked={settings.newsletter}
               onChange={() => handleToggle('newsletter')}
