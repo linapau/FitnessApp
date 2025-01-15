@@ -66,26 +66,28 @@ function ProfilePage() {
           </div>
           <div className="mb-6">
           <label htmlFor="password" className="block text-lg font-medium text-orange-900">Change your password</label>
-          <label htmlFor="password" className="block text-gray-700">Old password</label>
+          <label htmlFor="password" className="block text-gray-700 mt-4">Old password</label>
           <input
             type="password"
             id="password"
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             placeholder="Enter your current password"
           />
-          <label htmlFor="password" className="block text-gray-700">New password</label>
+          <label htmlFor="password" className="block text-gray-700 mt-6">New password</label>
           <input
             type="password"
             id="password"
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             placeholder="Enter a new password"
           />
-          <input
+          <div className="mt-2">
+          <input 
             type="password"
             id="password"
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             placeholder="Confirm password"
           />
+          </div>
         </div>
 
           {/* Sekcja "O mnie" */}
