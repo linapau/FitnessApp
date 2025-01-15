@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { MdEdit } from 'react-icons/md'; // Ikona edycji
-//import { Switch } from '@mui/material';
-import Switch from "react-switch";
-//import { SwitchComponent } from '@syncfusion/ej2-react-buttons';
-//import Switch from '@mui/material/Switch';
+//import Switch from "react-switch";
+import Switch from "rc-switch";
+import "rc-switch/assets/index.css";
 import { useStateContext } from '../contexts/ContextProvider';
 
 
@@ -131,38 +130,68 @@ function ProfilePage() {
         <h2 className="text-2xl font-semibold text-left text-gray-800 mb-6">Platform Settings</h2>
         <div className="space-y-4">
           <div className="flex justify-between items-center">
-            <label className="text-base font-medium text-gray-600">Email me when someone follows me</label>
+            <label className="max-w-52 text-base font-medium text-gray-500">Email me when someone follows me</label>
             <Switch
               checked={settings.follows}
               onChange={() => handleToggle('follows')}
+              style={{
+                width: '50px',
+                height: '24px',
+                backgroundColor: settings.follows ? '#4da6ff' : '#cce7ff',
+                border: `1px solid ${settings.follows ? '#4da6ff' : '#99d3ff'}`,
+              }}
             />
           </div>
           <div className="flex justify-between items-center">
-            <label className="text-base font-medium text-gray-600">Email me when someone responds to my post</label>
+            <label className="max-w-52 text-base font-medium text-gray-500">Email me when someone responds to my post</label>
             <Switch
               checked={settings.responds}
               onChange={() => handleToggle('responds')}
+              style={{
+                width: '50px',
+                height: '24px',
+                backgroundColor: settings.responds ? '#4da6ff' : '#cce7ff',
+                border: `1px solid ${settings.responds ? '#4da6ff' : '#99d3ff'}`,
+              }}
             />
           </div>
           <div className="flex justify-between items-center">
-            <label className="text-base font-medium text-gray-600">Email me when I forget about completing my daily plan</label>
+            <label className=" max-w-52 text-base font-medium text-gray-500">Email me when I forget about completing my daily plan</label>
             <Switch
               checked={settings.dailyPlan}
               onChange={() => handleToggle('dailyPlan')}
+              style={{
+                width: '50px',
+                height: '24px',
+                backgroundColor: settings.dailyPlan ? '#4da6ff' : '#cce7ff',
+                border: `1px solid ${settings.dailyPlan ? '#4da6ff' : '#99d3ff'}`,
+              }}
             />
           </div>
           <div className="flex justify-between items-center">
-            <label className="text-base font-medium text-gray-600">Email me when I forget about completing my weekly plan</label>
+            <label className="max-w-52 text-base font-medium text-gray-500">Email me when I forget about completing my weekly plan</label>
             <Switch
               checked={settings.weeklyPlan}
               onChange={() => handleToggle('weeklyPlan')}
+              style={{
+                width: '50px',
+                height: '24px',
+                backgroundColor: settings.weeklyPlan ? '#4da6ff' : '#cce7ff',
+                border: `1px solid ${settings.weeklyPlan ? '#4da6ff' : '#99d3ff'}`,
+              }}
             />
           </div>
           <div className="flex justify-between items-center">
-            <label className="text-base font-medium text-gray-600">Subscribe to newsletter</label>
+            <label className="max-w-52 text-base font-medium text-gray-500">Subscribe to newsletter</label>
             <Switch
               checked={settings.newsletter}
               onChange={() => handleToggle('newsletter')}
+              style={{
+                width: '50px',
+                height: '24px',
+                backgroundColor: settings.newsletter ? '#4da6ff' : '#cce7ff',
+                border: `1px solid ${settings.newsletter ? '#4da6ff' : '#99d3ff'}`,
+              }}
             />
           </div>
         </div>

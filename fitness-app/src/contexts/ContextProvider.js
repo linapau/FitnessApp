@@ -12,7 +12,7 @@ const initialState = {
 const initialUser = {
   name: 'Rob Deans',
   email: 'RobDeans@fitness.com',
-  aboutMe: 'Software developer based in San Francisco.',
+  aboutMe: 'Software developer based in San Francisco. I like dogs. Every dog is beautiful. Remember.',
   avatar: null, // Ścieżka do zdjęcia użytkownika
   role: 'Administrator',
 };
