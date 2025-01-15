@@ -50,6 +50,7 @@ export const ContextProvider = ({ children }) => {
     currentMode,
   });
 
+
   return (
     // eslint-disable-next-line react/jsx-no-constructed-context-values
     <StateContext.Provider  // share infos in context
