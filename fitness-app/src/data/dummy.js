@@ -5,7 +5,8 @@ import { BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'r
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiStockLine, RiHomeHeartLine } from 'react-icons/ri';
-import { MdOutlineSupervisorAccount, MdOutlineLeaderboard, MdOutlineEmojiFoodBeverage } from 'react-icons/md';
+import { CiApple } from "react-icons/ci";
+import { MdOutlineSupervisorAccount, MdOutlineLeaderboard, MdOutlineSportsMartialArts, MdOutlineEmojiFoodBeverage } from 'react-icons/md';
 import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid, GiJumpAcross, GiProgression } from 'react-icons/gi';
@@ -423,7 +424,7 @@ export const links = [
       },
       {
         name: 'workoutPlan',
-        icon: <GiJumpAcross />,
+        icon: <MdOutlineSportsMartialArts />,
       },
       {
         name: 'Leaderboard',
@@ -435,7 +436,7 @@ export const links = [
       },
       {
         name: 'DietsPage',
-        icon: <CgCommunity />,
+        icon: <CiApple />,
       }
     ],
   },

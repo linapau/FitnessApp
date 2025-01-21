@@ -1,0 +1,2620 @@
+{
+    "1800": [
+        {
+            "day": "Monday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Tomatoes",
+                        "Whole-grain toast",
+                        "Feta cheese",
+                        "green tea"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate",
+                        "Banana"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Mac n' cheese",
+                        "Green tea"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Crepes with sour cream",
+                        "Apple with cinnamon"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Taco soup",
+                        "Kombucha"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "French toast with cheese and salami",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Waffles",
+                        "Greek yoghurt"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Pad thai",
+                        "Good Material drink"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Strawberry and avocado coctail"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Casserole",
+                        "Cucumber salad"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Biscuits & Gravy",
+                        "eggs with tomatoes",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Hawaiian pork chops",
+                        "fries",
+                        "Beetrot salad",
+                        "water"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Quinoa salad"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Omelet",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and white chocolate"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Honey chicken",
+                        "Brown rice",
+                        "broccoli fried in butter with breadcrumbs"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Club salad"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Cottage cheese pizza - Parma"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Whole-grain toasts with chicken breast ham, tomatoes, salad and onion"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Tortellini with spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Cafe Rio pork salad",
+                        "Kombucha"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        }
+    ],
+    "2000": [
+        {
+            "day": "Monday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Pancakes with plum jam and sour cream",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Chia seeds with greek yoghurt and bananas"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "BBQ chicken sandwich"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Quiche",
+                        "Caffe latte"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Burritos"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "French toasts with eggs and salami",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Vegan panini with feta cheese"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Skirt steak",
+                        "Mashed potatoes",
+                        "Beetrot salad"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Lasagne",
+                        "Kombucha"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Avocado toasts",
+                        "Black tea"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Banana",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "broccoli fried in butter with breadcrumbs",
+                        "Cheese sticks"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Cafe Rio pork salad",
+                        "Melisa tea"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Apple slices",
+                        "Greek yoghurt"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "BBQ chicken sandwich"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "eggs with tomatoes",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Omelet",
+                        "Green tea"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Taco soup",
+                        "Club salad"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Hawaiian pork chops",
+                        "mango lassi"
+                    ]
+                }
+            ]
+        }
+    ],
+    "2200": [
+        {
+            "day": "Monday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Whole-grain toasts with chicken breast ham, tomatoes, salad and onion"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Apple with cinnamon",
+                        "green tea",
+                        "Greek yoghurt",
+                        "Oats with granola"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Crepes with sour cream",
+                        "Pear"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Biscuits & Gravy",
+                        "Chocolate chia seeds with raspberries"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Avocado toasts",
+                        "Caffe latte"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Strawberry and avocado coctail"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Oats with granola",
+                        "Strawberry, kiwi and banana"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        }
+    ],
+    "2500": [
+        {
+            "day": "Monday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Whole-grain toasts with salami, avocado, eggs, rucola and chilli chips",
+                        "green tea"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Mango coctail"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Baked ziti",
+                        "Black tea",
+                        "Beetrot salad"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Sweet potato chips",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Shrimp salad",
+                        "Kombucha"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Avocado toasts",
+                        "green tea"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Green vegetable cream soup",
+                        "Water with lemon"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Apple with cinnamon",
+                        "Greek yoghurt",
+                        "Banana"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Vegan panini with feta cheese",
+                        "Cafe Rio pork salad",
+                        "Melisa tea"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Pancakes with plum jam and sour cream",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Apple with cinnamon",
+                        "Greek yoghurt",
+                        "green tea"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Green vegetable cream soup",
+                        "smoked salmon with mashed potatoes and broccoli sprouts"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Chia seeds with greek yoghurt and bananas",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Pancakes with plum jam and sour cream",
+                        "Caffe latte"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "eggs with tomatoes",
+                        "Whole-grain toasts with chicken breast ham, tomatoes, salad and onion"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Hawaiian pork chops",
+                        "Club salad",
+                        "french fries"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and white chocolate",
+                        "red tea"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Apple slices with honey, banana, peach and philadelphia cheese"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "BBQ chicken sandwich",
+                        "Beetrot salad",
+                        "Kombucha"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Crepes with sour cream",
+                        "Melisa tea"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        }
+    ],
+    "2800": [
+        {
+            "day": "Monday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Whole-grain toasts with chicken breast ham, tomatoes, salad and onion",
+                        "green tea"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Chocolate chia seeds with raspberries",
+                        "green tea",
+                        "Greek yoghurt"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled turkey with halloumi cheese, vegetables with bacon and cranberry souce"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Casserole",
+                        "Black tea"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Omelet with spinach, red onion, paprika, garlic and cheese",
+                        "Matcha tea"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Cottage cheese pizza - Parma",
+                        "Caffe latte"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Feta cheese",
+                        "Good Material drink",
+                        "BBQ chicken sandwich"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        }
+    ],
+    "3000": [
+        {
+            "day": "Monday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Omelet with spinach, red onion, paprika, garlic and cheese",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Strawberry and avocado coctail"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Whole-grain toast",
+                        "Feta cheese",
+                        "Green olives"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and white chocolate"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Chia seeds with greek yoghurt and bananas",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "French toasts with eggs and salami",
+                        "red tea"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Apple slices with honey, banana, peach and philadelphia cheese"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Green vegetable cream soup",
+                        "french fries"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "French toasts with pear, honey and blue cheese"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Good Material drink",
+                        "Baked ziti"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Shrimp salad"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Pad thai with chicken",
+                        "Kombucha"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Omelet with spinach, red onion, paprika, garlic and cheese"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Quinoa salad with vegetables"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Oat and granola snacks", 
+                        "Matcha tea"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "mango lassi",
+                        "Butter masala with chicken and garlic naan"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        }
+    ],
+    "3200": [
+        {
+            "day": "Monday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Apple slices with honey, banana, peach and philadelphia cheese",
+                        "Black tea"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "French toasts with pear, honey and blue cheese",
+                        "Banana with nutella",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "smoked salmon with mashed potatoes and broccoli sprouts",
+                        "Kombucha",
+                        "Club salad"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Pad thai with shrimps",
+                        "Good Material drink"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "French toast with cheese and salami",
+                        "Feta cheese",
+                        "Green olives",
+                        "Cappuccino"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Apple slices with honey, banana, peach and philadelphia cheese"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Cottage cheese pizza - Capriciosa",
+                        "Chaimate"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Matcha tea",
+                        "Apple with cinnamon"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Shrimp salad",
+                        "Cheese sticks",
+                        "Green beans"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Whole-grain toasts with salami, avocado, eggs, rucola and chilli chips",
+                        "Caffe latte"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Banana",
+                        "Greek yoghurt",
+                        "strawberries",
+                        "cranberries",
+                        "blackberries"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled turkey with halloumi cheese, vegetables with bacon and cranberry souce"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Apple slices with honey, banana, peach and philadelphia cheese"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "BBQ chicken sandwich",
+                        "Cafe Rio pork salad",
+                        "Kombucha"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "French toasts with pear, honey and blue cheese",
+                        "Apple slices with honey, banana, peach and philadelphia cheese"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Banana with nutella",
+                        "oat meal"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Burritos",
+                        "Kombucha"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Omelet with spinach, red onion, paprika, garlic and cheese",
+                        "Caffe latte",
+                        "Banana"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Apple with cinnamon",
+                        "cottage cheese"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Quinoa salad with vegetables",
+                        "Grilled turkey with halloumi cheese, vegetables with bacon and cranberry souce"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Vegan panini with feta cheese",
+                        "Quinoa salad with vegetables",
+                        "green tea"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Sweet potato chips",
+                        "Baked ziti",
+                        "Skirt steak"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and white chocolate",
+                        "Pancakes with plum jam and sour cream"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        }
+    ],
+    "3500": [
+        {
+            "day": "Monday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Whole-grain toasts with chicken breast ham, tomatoes, salad and onion"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate",
+                        "Caffe latte"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Apple slices with honey, banana, peach and philadelphia cheese"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "eggs with tomatoes and feta cheese",
+                        "green tea"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "BBQ chicken sandwich",
+                        "Kombucha"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Omelet with spinach, red onion, paprika, garlic and cheese",
+                        "Matcha latte"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Biscuits & Gravy",
+                        "Strawberry and avocado coctail"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "French toasts with pear, honey and blue cheese",
+                        "Banana"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Baked oats with raspberries and chocolate"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Club salad",
+                        "Melisa tea"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "mango lassi",
+                        "Apple slices with honey, banana, peach and philadelphia cheese",
+                        "oat meal"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Apple with cinnamon",
+                        "green tea",
+                        "Greek yoghurt"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "smoked salmon with mashed potatoes and broccoli sprouts",
+                        "Kombucha"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Apple slices with honey, banana, peach and philadelphia cheese",
+                        "Baked ziti"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "eggs with tomatoes and feta cheese",
+                        "Grilled turkey with halloumi cheese, vegetables with bacon and cranberry souce"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "meals": [
+                {
+                    "name": "Breakfast",
+                    "time": "8:00 AM",
+                    "items": [
+                        "Scrambled eggs",
+                        "Whole-grain toast",
+                        "Spinach"
+                    ]
+                },
+                {
+                    "name": "Snack 1",
+                    "time": "11:00 AM",
+                    "items": [
+                        "Carrot sticks",
+                        "Hummus"
+                    ]
+                },
+                {
+                    "name": "Lunch",
+                    "time": "1:00 PM",
+                    "items": [
+                        "Grilled chicken",
+                        "Brown rice",
+                        "Green beans"
+                    ]
+                },
+                {
+                    "name": "Snack 2",
+                    "time": "4:00 PM",
+                    "items": [
+                        "Cheese sticks",
+                        "Apple slices"
+                    ]
+                },
+                {
+                    "name": "Dinner",
+                    "time": "7:00 PM",
+                    "items": [
+                        "Steak",
+                        "Mashed potatoes",
+                        "Steamed carrots"
+                    ]
+                }
+            ]
+        }
+    ]
+}
