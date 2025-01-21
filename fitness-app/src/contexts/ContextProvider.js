@@ -25,6 +25,7 @@ export const ContextProvider = ({ children }) => {
   const [activeMenu, setActiveMenu] = useState(true);
   const [isClicked, setIsClicked] = useState(initialState);
   const [homeWorkoutPlan, setPlanForHome] = useState(null);
+  const [homeDietPlan, setHomeDietPlan] = useState(null);
 
   const [user, setUser] = useState(initialUser);
 
@@ -74,7 +75,9 @@ export const ContextProvider = ({ children }) => {
         homeWorkoutPlan,
         setPlanForHome,
         user,
-        updateUser,    
+        updateUser, 
+        setHomeDietPlan,   
+        homeDietPlan,
       }}
     >
       {children}

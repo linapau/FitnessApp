@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-
-// Importuj JSON
 import dietData from '../data/full_realistic_diet_data.json';
+import { useStateContext } from '../contexts/ContextProvider';
+import toast, { Toaster } from 'react-hot-toast';
 
 // Komponent do wyświetlania posiłku
 const MealCard = ({ name, time, items }) => (
@@ -29,17 +29,35 @@ const DietDay = ({ day, meals }) => (
 // Główny komponent Diets
 const Diets = () => {
   const [calories, setCalories] = useState('1800'); // Domyślna kaloryczność
+  const { setHomeDietPlan } = useStateContext(); // Funkcja do zapisywania planu diety w kontekście
 
   // Obsługa zmiany kaloryczności
   const handleCalorieChange = (event) => {
     setCalories(event.target.value);
   };
 
+  const saveDietPlan = () => {
+    //const selectedDiet = dietData[calories];
+    //setHomeDietPlan(selectedDiet); // Zapisanie diety do kontekstu
+    setHomeDietPlan(dietData[calories]);
+    //alert(`Diet plan for ${calories} kcal saved!`);
+    toast.success(`Diet plan for ${calories} kcal saved!`, {
+      position: "top-right",
+      duration: 5000, 
+  });
+  };
+
   return (
     <div className="p-6">
       {/* Nagłówek z wyborem kaloryczności */}
+      <h1 className="text-2xl text-left font-bold">Choose Your Diet Plan</h1>
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold">Choose Your Diet Plan</h1>
+        <button
+        onClick={saveDietPlan}
+        className="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md shadow mb-3"
+      >
+        Save This Diet Plan
+      </button>
         <select
           value={calories}
           onChange={handleCalorieChange}
@@ -52,12 +70,15 @@ const Diets = () => {
           ))}
         </select>
       </div>
+      
       {/* Siatka z dniami tygodnia */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {dietData[calories].map((diet, index) => (
           <DietDay key={index} {...diet} />
         ))}
       </div>
+      {/* Dodanie kontenera powiadomień */}
+      <Toaster />
     </div>
   );
 };

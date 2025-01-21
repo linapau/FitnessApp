@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { DayWorkout, ExamplePlans } from '../components';
 import { exercisesData } from '../data/dummy';
+import toast, { Toaster } from 'react-hot-toast';
+
 
 /*const WorkoutPlanPage = ({ setPlanForHome }) => {
   const [weekPlan, setWeekPlan] = useState({
@@ -42,15 +44,15 @@ import { exercisesData } from '../data/dummy';
     setWeekPlan(defaultWeekPlan);
   };
 
- //////////
-// const handleSavePlan = () => {
-  //  setPlanForHome(weekPlan); // Zapisz plan w stanie globalnym
-  //};
 
-    // Zapisanie planu do stanu głównego (Home)
-    const handleSavePlan = () => {
-        setPlanForHome(weekPlan);  // Funkcja przekazana przez props zapisuje plan w stanie Home
-      };
+  // Zapisanie planu do stanu głównego (Home)
+  const handleSavePlan = () => {
+      setPlanForHome(weekPlan);  // Funkcja przekazana przez props zapisuje plan w stanie Home
+      toast.success(`Week plan saved!`, {
+        position: "top-right",
+        duration: 5000, 
+    });
+    };
 
   return (
     <div className="p-6">
@@ -86,6 +88,7 @@ import { exercisesData } from '../data/dummy';
             Reset Plan
             </button>
         </div>
+        <Toaster />
     </div>
   );
 };

@@ -22,7 +22,7 @@ const ExamplePlans = ({ onSelectPlan }) => {
   ];
 
   return (
-    <div className="p-4 bg-white dark:bg-secondary-dark-bg rounded-lg shadow-md">
+    <div className="p-4 bg-white dark:bg-secondary-dark-bg rounded-lg shadow-md mt-4">
       <h3 className="text-lg font-semibold mb-4">Example Plans</h3>
       <ul className="space-y-4">
         {examplePlans.map((plan, index) => (

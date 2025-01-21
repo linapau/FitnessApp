@@ -1,13 +1,14 @@
 import React from 'react';
-import { BsCurrencyDollar } from 'react-icons/bs';
 import { GoAlertFill } from "react-icons/go";
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
-
+import { useNavigate } from "react-router-dom";
 import { Pie, Button, LineChart, SparkLine } from '../components';
 import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import product1 from '../data/product1.jpg';
+import articleWorkoutDaily from '../data/articleWorkoutDaily.jpg'
+
 
 const DropDown = ({ currentMode }) => (
   <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
@@ -16,7 +17,8 @@ const DropDown = ({ currentMode }) => (
 );
 
 const Home = () => {
-  const { currentColor, currentMode, homeWorkoutPlan } = useStateContext();
+  const navigate = useNavigate();
+  const { currentColor, currentMode, homeWorkoutPlan, homeDietPlan } = useStateContext();
 
   return (
     
@@ -44,19 +46,49 @@ const Home = () => {
         )}
       </div>
       <button
-        onClick={() => (window.location.href = '/workoutPlan')}
+        //onClick={() => (window.location.href = '/workoutPlan')}
+        onClick={() => navigate('/workoutPlan')} 
         className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md shadow mt-6"
       >
         Modify Your Plan
       </button>
     </div>
 
-      <div className="flex flex-wrap lg:flex-nowrap justify-center ">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
-          <div className="flex justify-between items-center">
-            lalal
-          </div>
+     {/* Plan diety */}
+     <div className="mt-24 p-6">
+      <h1 className="text-2xl font-bold mb-6">Your Saved Diet Plan</h1>
+      {homeDietPlan ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {homeDietPlan.map((diet, index) => (
+            <div key={index} className="p-4 bg-white rounded-lg shadow-md">
+              <h2 className="text-xl font-bold">{diet.day}</h2>
+              {diet.meals.map((meal, idx) => (
+                <div key={idx} className="mt-2">
+                  <h3 className="font-semibold">{meal.name}</h3>
+                  <p className="text-sm text-gray-500">{meal.time}</p>
+                  <ul className="text-gray-700">
+                    {meal.items.map((item, i) => (
+                      <li key={i}>- {item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          ))}
         </div>
+      ) : (
+        <p className="text-gray-500">No diet plan saved. Please choose and save a plan in the Diets page.</p>
+      )}
+      <button
+        //onClick={() => (window.location.href = '/dietspage')}
+        onClick={() => navigate('/dietspage')} 
+        className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md shadow mt-6"
+      >
+        Modify Your Diet
+      </button>
+    </div>
+    
+      <div className="flex flex-wrap lg:flex-nowrap justify-center ">
         <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
           {earningData.map((item) => (
             <div key={item.title} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
@@ -317,15 +349,15 @@ const Home = () => {
           <div className="mt-10">
             <img
               className="md:w-96 h-50 "
-              src={product1}
+              src={articleWorkoutDaily}
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
+              <p className="font-semibold text-lg">Is It Bad To Do the Same Workout Every Day?</p>
               <p className="text-gray-400 ">By Johnathan Doe</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown
-                here. There could be some great info.
+              It may be OK, depending on your health, fitness level and type of exercise.
+              Fitness experts disagree on whether repetitive daily workouts are healthy and safe. “This is a controversial issue,” says Beskur. “For some people, doing the same workout every day is fine. But it really depends on you, your health and your goals.”
               </p>
               <div className="mt-3">
                 <Button
