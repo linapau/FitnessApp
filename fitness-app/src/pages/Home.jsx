@@ -112,6 +112,39 @@ const Home = () => {
       </div>
 
       <div className="flex gap-10 flex-wrap justify-center">
+
+      <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+          <div className="flex justify-between">
+            <p className="text-xl font-semibold">Daily Activities</p>
+            <button type="button" className="text-xl font-semibold text-gray-500">
+              <IoIosMore />
+            </button>
+          </div>
+          <div className="mt-10">
+            <img
+              className="md:w-96 h-50 "
+              src={articleWorkoutDaily}
+              alt=""
+            />
+            <div className="mt-8">
+              <p className="font-semibold text-lg">Is It Bad To Do the Same Workout Every Day?</p>
+              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="mt-8 text-sm text-gray-400">
+              It may be OK, depending on your health, fitness level and type of exercise.
+              Fitness experts disagree on whether repetitive daily workouts are healthy and safe. “This is a controversial issue,” says Beskur. “For some people, doing the same workout every day is fine. But it really depends on you, your health and your goals.”
+              </p>
+              <div className="mt-3">
+                <Button
+                  color="white"
+                  bgColor={currentColor}
+                  text="Read More"
+                  borderRadius="10px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780  ">
           <div className="flex justify-between">
             <p className="font-semibold text-xl">Revenue Updates</p>
@@ -339,37 +372,7 @@ const Home = () => {
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
           </div>
         </div>
-        <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
-          <div className="flex justify-between">
-            <p className="text-xl font-semibold">Daily Activities</p>
-            <button type="button" className="text-xl font-semibold text-gray-500">
-              <IoIosMore />
-            </button>
-          </div>
-          <div className="mt-10">
-            <img
-              className="md:w-96 h-50 "
-              src={articleWorkoutDaily}
-              alt=""
-            />
-            <div className="mt-8">
-              <p className="font-semibold text-lg">Is It Bad To Do the Same Workout Every Day?</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
-              <p className="mt-8 text-sm text-gray-400">
-              It may be OK, depending on your health, fitness level and type of exercise.
-              Fitness experts disagree on whether repetitive daily workouts are healthy and safe. “This is a controversial issue,” says Beskur. “For some people, doing the same workout every day is fine. But it really depends on you, your health and your goals.”
-              </p>
-              <div className="mt-3">
-                <Button
-                  color="white"
-                  bgColor={currentColor}
-                  text="Read More"
-                  borderRadius="10px"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   );
