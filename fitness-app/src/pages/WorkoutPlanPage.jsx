@@ -35,6 +35,13 @@ import toast, { Toaster } from 'react-hot-toast';
     }));
   };
 
+  const handleRemoveExercise = (day, index) => {
+    setWeekPlan((prev) => ({
+      ...prev,
+      [day]: prev[day].filter((_, i) => i !== index), // Usuwanie ćwiczenia według indeksu
+    }));
+  };  
+
   const handleSelectExamplePlan = (examplePlan) => {
     console.log("Selected example plan:", examplePlan);
     setWeekPlan(examplePlan);
@@ -66,6 +73,7 @@ import toast, { Toaster } from 'react-hot-toast';
             day={weekday}
             exercisesData={exercises}
             onAddExercise={handleAddExercise}
+             onRemoveExercise={handleRemoveExercise} 
             availableExercises={exercisesData.exercises}
           />
         ))}
